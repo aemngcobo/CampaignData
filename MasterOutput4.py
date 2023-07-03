@@ -10,5 +10,9 @@ for r in range(len(data1)):
     if data1.iloc[r,3] > 12:
        lst.append(data1.loc[r])
 print(lst)
-        
+
+newdata=pd.DataFrame(lst)
+print(newdata)
+
+    
     
